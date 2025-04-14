@@ -14,7 +14,9 @@ Chisel: Solidity REPL
 
 📦 Installation
 1. Install Foundry
+   
 ' ' '
+
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
 
