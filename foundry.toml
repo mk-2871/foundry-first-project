@@ -5,11 +5,5 @@ libs = ["lib"]
 
 remappings = [
     '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/',
+    '@foundry-devops/=lib/foundry-devops/',
 ]
-
-[dependencies]
-forge-std = { url = "https://github.com/foundry-rs/forge-std", tag = "v1.8.2" }
-foundry-devops = { url = "https://github.com/Cyfrin/foundry-devops" }
-
-
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
