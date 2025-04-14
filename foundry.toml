@@ -9,4 +9,4 @@ remappings = [
 ]
 
 [dependencies]
-foundry-devops = { git = "https://github.com/Cyfrin/foundry-devops" }
+foundry-devops = "Cyfrin/foundry-devops"
