@@ -5,5 +5,8 @@ libs = ["lib"]
 
 remappings = [
     '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/',
-    '@foundry-devops/=lib/foundry-devops/',
+    "@foundry-devops/=lib/foundry-devops/",
 ]
+
+[dependencies]
+foundry-devops = { git = "https://github.com/Cyfrin/foundry-devops" }
