@@ -1,66 +1,63 @@
-## Foundry
+Foundry First Project
+Description
+A simple Ethereum project built with Foundry to get started with Solidity development, testing, and deployment.
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Tools Used
+Foundry: A fast, modular toolkit for Ethereum development.
 
-Foundry consists of:
+Forge: Smart contract testing framework.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Cast: Command-line tool for interacting with deployed contracts.
 
-## Documentation
+Anvil: Local Ethereum node for development and testing.
 
-https://book.getfoundry.sh/
+Chisel: Solidity REPL for interactive development.
 
-## Usage
+Features
+Testing: Test contracts with Forge.
 
-### Build
+Deployment: Deploy contracts with minimal setup.
 
-```shell
-$ forge build
-```
+Interaction: Use Cast to interact with the deployed contracts.
 
-### Test
+Installation
+Install Foundry by following the instructions at Foundry Book.
 
-```shell
-$ forge test
-```
+Clone the repository:
 
-### Format
+bash
+Copy
+Edit
+git clone https://github.com/mk-2871/foundry-first-project.git
+Navigate into the project directory:
 
-```shell
-$ forge fmt
-```
+bash
+Copy
+Edit
+cd foundry-first-project
+Usage
+1. Build the Project
+bash
+Copy
+Edit
+forge build
+2. Run Tests
+bash
+Copy
+Edit
+forge test
+3. Deploy Contracts
+bash
+Copy
+Edit
+forge deploy
+4. Interact with Contracts
+bash
+Copy
+Edit
+cast call <contract_address> <method_name>
+Contributing
+Feel free to fork this project and submit pull requests for improvements. Contributions are welcome!
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
